@@ -1,0 +1,33 @@
+Mining Big Data using Weka
+
+https://www.cs.waikato.ac.nz/ml/weka/bigdata.html
+
+Mining Big Data using Weka 3
+
+A common misconception is that the Weka machine learning software cannot be applied to large datasets. 
+This page has some information on how to handle big data with Weka (see also here). 
+Note that the main problem lies in training models from large datasets, not prediction for large datasets. 
+Weka is being used to make predictions in real time in very demanding real-world applications. 
+This can be done with almost all Weka models once they have been built.
+
+It is correct that it may be impossible to train models from large datasets using the Weka Explorer graphical user interface, 
+even when the Java heap size has already been increased, because the Explorer always loads the entire dataset into the computer's 
+main memory and also incurs significant overhead due to visualisation, etc.
+
+When dealing with large datasets, it is best to either employ a command-line interface (CLI) to interact with 
+Weka (e.g. a shell that comes with the computer's operating system or the SimpleCLI included in Weka), 
+use Weka's Knowledge Flow graphical user interface, or write code directly in Java or a Java-based scripting language 
+such as Groovy or Jython. Using these methods, it is possible to deal with larger datasets and even datasets that are 
+too big to fit into main memory.
+
+Most Weka classifiers require the entire dataset to be loaded into memory for training, but there are also schemes
+that can be trained in an incremental fashion, namely all classifiers implementing the weka.classifiers.UpdateableClassifier interface. 
+These are limited in number; however, for Weka 3.8, there is a library that provides access to the MOA data stream software containing 
+state-of-the-art algorithms for large datasets or data streams. Note also that non-incremental learning algorithms can be applied to
+large datasets by subsampling the data. Reservoir sampling is an incremental sampling method implemented in Weka that can be used for
+this purpose.
+
+Weka 3.8 also provides access to new packages for distributed data mining. The first new package is called distributedWekaBase. 
+It provides base "map" and "reduce" tasks that are not tied to any specific distributed platform. A second, called distributedWekaHadoop,
+provides Hadoop-specific wrappers and jobs for these base tasks. A third, called distributedWekaSpark, provides Spark-specific wrappers. 
+Read more on the hadoop support... and more on the Spark support....
