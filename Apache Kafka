@@ -10,3 +10,8 @@ Kafka 是一个消息系统，原本开发自 LinkedIn，用作 LinkedIn 的活�
 活动数据包括页面访问量（Page View）、被查看内容方面的信息以及搜索情况等内容。这种数据通常的处理方式是先把各种活动以日志的形式写入某种文件，
 然后周期性地对这些文件进行统计分析。
 运营数据指的是服务器的性能数据（CPU、IO 使用率、请求时间、服务日志等等数据)，总的来说，运营数据的统计方法种类繁多。
+
+
+Kafka 的优化及在商业平台中的应用[转]
+https://www.ibm.com/developerworks/cn/opensource/os-cn-kafka-distributed/index.html
+分布式消息中间件应用实践
