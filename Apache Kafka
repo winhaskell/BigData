@@ -1,8 +1,10 @@
 Apache Kafka
 https://kafka.apache.org
 
+
 Apache kafka 工作原理介绍
 https://www.ibm.com/developerworks/cn/opensource/os-cn-kafka/index.html
+
 
 Apache Kafka 原理
 Kafka 是一个消息系统，原本开发自 LinkedIn，用作 LinkedIn 的活动流（Activity Stream）和运营数据处理管道（Pipeline）的基础。
@@ -15,3 +17,8 @@ Kafka 是一个消息系统，原本开发自 LinkedIn，用作 LinkedIn 的活�
 Kafka 的优化及在商业平台中的应用[转]
 https://www.ibm.com/developerworks/cn/opensource/os-cn-kafka-distributed/index.html
 分布式消息中间件应用实践
+
+
+Kafka 集群运维[转]
+https://favoorr.github.io/2017/02/09/kafka-cluster-ops/
+
