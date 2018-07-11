@@ -2,3 +2,13 @@ Docker
 
 https://www.ibm.com/developerworks/cn/opensource/os-cn-docker-distributed-bigdata/index.html
 https://github.com/tonywell/bigdata-docker
+
+
+intel
+Docker* 容器中大数据工作负载的裸机性能
+https://software.intel.com/zh-cn/articles/bare-metal-performance-for-big-data-workloads-on-docker-containers
+
+
+
+利用Docker搭建大数据处理集群
+https://blog.csdn.net/iigeoxiaoyang/article/details/53020066
