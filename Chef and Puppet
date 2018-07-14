@@ -4,3 +4,10 @@ https://www.chef.io/puppet/
 Puppet is a powerful enterprise-grade configuration management tool. Both Chef and Puppet help development and operations teams 
 manage applications and infrastructure. 
 However they have important differences you should understand when evaluating which one is right for you.
+
+
+
+参考
+https://blackanger.gitbooks.io/tao-of-chef/chapter_1_chef/chef_vs_puppet.html
+https://smalltowntechblog.com/tag/chef/
+https://blog.csdn.net/yangzhenping/article/details/43268561
