@@ -3,3 +3,6 @@ data pipeline
 搭建数据通道（data pipeline）时，由于涉及到：数据读取，数据分析，数据存储等等，
 如果将各个部分分别容器化，独立设计各个模块，将有助于缩短开发时间。
 
+https://docs.microsoft.com/zh-tw/azure/architecture/data-guide/relational-data/etl
+
+
