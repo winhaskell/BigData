@@ -1,4 +1,16 @@
-Docker Hub
+Docker introduce
+
+提到虚拟化技术，我们首先想到的一定是 Docke，每一个镜像层都是建立在另一个镜像层之上的，
+同时所有的镜像层都是只读的，只有每个容器最顶层的容器层才可以被用户直接读写，
+所有的容器都建立在一些底层服务（Kernel）上，包括命名空间、控制组、rootfs 等等，
+这种容器的组装方式提供了非常大的灵活性，只读的镜像层通过共享也能够减少磁盘的占用。
+
+Docker 目前已经成为了非常主流的技术，已经在很多成熟公司的生产环境中使用，
+但是 Docker 的核心技术其实已经有很多年的历史了，Linux 命名空间、控制组和 UnionFS 三大技术支撑了目前 Docker 的实现，
+也是 Docker 能够出现的最重要原因。
+
+
+https://draveness.me/docker
 
 https://yeasy.gitbooks.io/docker_practice/repository/dockerhub.html
 
